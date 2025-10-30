@@ -1,7 +1,9 @@
 """
 String variables
 
-Un string es de manera sencilla una serie de caracteres. En python, todo lo que se encuentre dentro de comillas simples o dobles sera considerado un string.
+Un string es de manera sencilla una serie de caracteres. 
+En python, todo lo que se encuentre dentro de comillas simples o dobles
+ sera considerado un string.
 
 Ejemplos_
 "Esto es un string"
@@ -43,3 +45,18 @@ last_name = "mercury"
 full_name = first_name + " " + last_name
 print(full_name)
 print(full_name.title())
+
+# Whitespaces
+"""
+Un whitspace se refiere a cualquier caracter que no se imprime, es decir
+un espacio, tabuladores y finales de linea. Los whitespaces se utilizan 
+comunmente para organizar las salidas de tal manera que sea mas 
+amigable de leer o ver para el usuario.
+
+Ejemplo:
+-Tabulador: \t
+-Salto de linea: \n
+"""
+
+print("Python")
+print("\tPython")
