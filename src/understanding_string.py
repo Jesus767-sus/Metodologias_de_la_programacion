@@ -57,6 +57,23 @@ Ejemplo:
 -Tabulador: \t
 -Salto de linea: \n
 """
-
+print("Whitespace Tabulador")
 print("Python")
 print("\tPython")
+print("\t\tPython")
+
+print("Whitespace Salto de linea")
+print("Languajes: \n\tPython\nC\n\tJavascript")
+
+# Eliminacion de espacios en blanco
+programming_languages = " Python "
+print(programming_languages)
+print(programming_languages.rstrip())
+print(programming_languages.lstrip())
+print(programming_languages.strip())
+
+# Syntax error con string
+message = "Una fortaleza de python es su comunidad"
+print(message)
+message = "Una fortaleza de "python" es su comunidad"
+print(message)
