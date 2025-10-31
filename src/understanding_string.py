@@ -75,5 +75,31 @@ print(programming_languages.strip())
 # Syntax error con string
 message = "Una fortaleza de python es su comunidad"
 print(message)
-message = "Una fortaleza de "python" es su comunidad"
+message = "Una fortaleza de python es su comunidad"
 print(message)
+
+# f-strings
+famous_person = "Taylor Swift"
+message = f"{famous_person} una vez dijo me voy al oxxo en avion"
+print(message)
+
+print(f"{famous_person.upper()} una vez dijo me voy al oxxo en avion.")
+
+# Actividad
+"""
+Elije el nombre de una persona famosa (quien tu quieras).
+Elije una cita famosa de esta persona.
+Iguala ambos strings a una variable.
+
+1) Realiza la concatenacion utilizando el signo de suma.
+2) Realiza la concatenacion utilizando fstrings
+"""
+
+famous_person_upv = "Charly Mercury dijo"
+quote_of_famous_person = "Python es el mejor lenguaje de programacion"
+message = famous_person_upv + " " + quote_of_famous_person
+print(famous_person_upv+ " " + quote_of_famous_person)
+print(message)
+
+f_string_message = f"{famous_person_upv} {quote_of_famous_person}"
+print(f_string_message)
