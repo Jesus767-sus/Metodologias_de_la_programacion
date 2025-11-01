@@ -103,3 +103,6 @@ print(message)
 
 f_string_message = f"{famous_person_upv} {quote_of_famous_person}"
 print(f_string_message)
+
+rata = "Eliezer es marica"
+print(rata)
