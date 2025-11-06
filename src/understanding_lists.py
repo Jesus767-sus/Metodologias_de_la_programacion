@@ -108,3 +108,37 @@ print(motorcycles) #Salida: ['ducati', 'honda', 'susuky', 'yamaha']
 print("\n")
 motorcycles.sort(reverse=True)
 print(motorcycles)
+
+"""
+ Ejemplo:
+
+ """
+
+students = ["josue", "victor", "ana", "mike", "paulo", "gerardo"]
+print(students)
+desired_student = input("¿Que estudiante deseas borrar de la lista?: ")
+students.remove(desired_student.strip().lower())
+print(students)
+students
+
+"""
+Reverse() se usa para invertir el orden de los elementos de la lista.
+Len() devuelve el numero de elementos de una lista.
+Sorted() Ordena una lista.
+"""
+students = ["josue", "victor", "ana", "mike", "paulo", "gerardo"]
+print(students)
+desired_student = input("¿Que estudiante deseas borrar de la lista?: ")
+students.remove(desired_student.strip().lower())
+print(students)
+students.reverse()
+print(students)
+
+print(len(students))
+
+
+cars = ["kia", "ford", "tesla", "volvo", "chevrolet"]
+print(cars)
+print(sorted(cars))
+sorted_list = sorted(cars)
+print("Lista original: ", cars)
