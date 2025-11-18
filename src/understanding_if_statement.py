@@ -82,10 +82,15 @@ else:
 
 # Preguntar la edad del usuario y decirle si tiene la edad suficiente para votar.
 # input("") -> str
-age = input("Escribe tu edad: ")
-print(f"\n Tu edad es: {age}")
 
-if int(age)>=18:
-    print("Tienes la edad suficiente para votar.")
-else:
-    print("No tienes la edad suficiente para votar.")
+try:
+    age = input("Escribe tu edad: ")
+    if int(age)>=18:
+      print("Tienes la edad suficiente para votar.")
+    else:
+      print("No tienes la edad suficiente para votar.")   
+
+except:
+    print("Error, ingresaste un caracter no valido")
+
+print("Holi Charly")
