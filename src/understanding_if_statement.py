@@ -85,7 +85,7 @@ else:
 
 try:
     age = input("Escribe tu edad: ")
-    if int(age)>=18:
+    if int(age)>=18:    
       print("Tienes la edad suficiente para votar.")
     else:
       print("No tienes la edad suficiente para votar.")   
