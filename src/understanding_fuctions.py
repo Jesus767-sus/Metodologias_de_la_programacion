@@ -26,4 +26,17 @@ for i in range(6):
 
 gretting_christopher()
 
+def create_full_name(first_name, middle_name, last_name):
+   full_name = f"{first_name} {middle_name} {last_name}".title()
+   return full_name
+
+first_name = input("Dame tu primer nombre: ")
+middle_name = input("Dame tu segundo nombre: ")
+last_name = input("Dame tu apellido: ")
+
+generated_fullname = create_full_name(
+  first_name.strip().lower(),
+  middle_name.strip().lower(),
+  last_name.strip().lower())
+print(generated_fullname)
 
