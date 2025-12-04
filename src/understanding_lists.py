@@ -21,7 +21,7 @@ print(bicycles[1].title())
 print(bicycles[2].title())
 print(bicycles[3].title())
 print(bicycles[4].title())
-
+print(bicycles[4].upper())
 # Accediendo al ultimo elemento.
 print(bicycles[-1].title()) # Ultimo elemento.
 print(bicycles[-2].title()) # Penultimo elemento.

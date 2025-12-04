@@ -40,3 +40,13 @@ generated_fullname = create_full_name(
   last_name.strip().lower())
 print(generated_fullname)
 
+# Hazme un codigo para sumar dos numeros
+def sumar_dos_numeros(numero1, numero2):
+   suma = numero1 + numero2
+   return suma
+num1 = float(input("Dame el primer numero: "))
+num2 = float(input("Dame el segundo numero: "))
+
+resultado = sumar_dos_numeros(num1, num2)
+print(f"La suma de {num1} y {num2} es: {resultado}")
+
