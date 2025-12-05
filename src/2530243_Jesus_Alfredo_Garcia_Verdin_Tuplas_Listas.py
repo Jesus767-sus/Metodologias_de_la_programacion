@@ -295,18 +295,21 @@ else:
 
 """
 CONCLUSIONS
-
-In this work it was possible to understand and effectively apply the use of lists, tuples 
-and dictionaries in Python, which are fundamental data structures for the development of 
-efficient programs. Through its implementation, we will see how lists allow collections of 
-data to be stored and modified dynamically, tuples offer a secure alternative as they are immutable, 
-and dictionaries facilitate the organization of information using key-value pairs. The proper 
-use of these structures not only improves the organization and management of data, but also 
-optimizes processes within a program, allowing clearer, orderly and more efficient solutions. 
-Finally, this work contributed to strengthening basic programming knowledge and developing 
-essential skills for future projects in Python.
+En este trabajo se logró comprender y aplicar efectivamente el uso de listas, tuplas 
+y diccionarios en Python, que son estructuras de datos fundamentales para el desarrollo de 
+programas eficientes. A través de su implementación veremos cómo las listas permiten colecciones de 
+Los datos se almacenan y modifican dinámicamente, las tuplas ofrecen una alternativa segura ya que son 
+inmutables. 
+y los diccionarios facilitan la organización de la información utilizando pares clave-valor. el adecuado 
+El uso de estas estructuras no sólo mejora la organización y gestión de los datos, sino también 
+optimiza los procesos dentro de un programa, permitiendo soluciones más claras, ordenadas y eficientes. 
+Finalmente, este trabajo contribuyó a fortalecer los conocimientos básicos de programación y desarrollar 
+Habilidades esenciales para futuros proyectos en Python.
 """
-
+# Repositorio en github:
+"""
+https://github.com/Jesus767-sus/Metodologias_de_la_programacion
+"""
 """
 REFERENCES
 

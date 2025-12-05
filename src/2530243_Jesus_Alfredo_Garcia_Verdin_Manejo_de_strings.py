@@ -274,8 +274,6 @@ else:
 
 
 """
-ChatGPT dijo:
-
 En conclusión, el manejo de strings en Python es una de las habilidades más importantes 
 dentro de la programación, ya que permite trabajar de forma eficiente con la información 
 textual que el usuario proporciona. A través de las distintas operaciones como limpieza, 
@@ -284,6 +282,10 @@ confiables, claros y seguros. El uso adecuado de métodos para modificar, compar
 de un string facilita la solución de problemas reales como el procesamiento de nombres, correos, 
 contraseñas y etiquetas. Dominar el manejo de cadenas fortalece la lógica de programación y sienta 
 una base sólida para el desarrollo de aplicaciones más completas y profesionales en Python.
+"""
+# Repositorio en github:
+"""
+https://github.com/Jesus767-sus/Metodologias_de_la_programacion
 """
 """
 References:

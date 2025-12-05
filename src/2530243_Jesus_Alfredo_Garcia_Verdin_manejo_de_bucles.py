@@ -292,6 +292,10 @@ programas más seguros, claros y libres de errores como los ciclos infinitos. El
 estructuras fortalece la lógica de programación del estudiante y representa una base 
 indispensable para abordar problemas más complejos dentro del desarrollo de software en Python.
 """
+# Repositorio en github:
+"""
+https://github.com/Jesus767-sus/Metodologias_de_la_programacion
+"""
 """
 REFERENCIAS
 

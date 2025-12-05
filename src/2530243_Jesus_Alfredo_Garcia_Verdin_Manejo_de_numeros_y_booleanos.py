@@ -302,6 +302,10 @@ a la creación de programas más seguros, claros y eficientes. Dominar el tratam
 y booleanos fortalece la lógica de programación y sienta las bases para el desarrollo de aplicaciones 
 más avanzadas en Python.
 """
+# Repositorio en github:
+"""
+https://github.com/Jesus767-sus/Metodologias_de_la_programacion
+"""
 
 # References
 """
